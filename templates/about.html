@@ -3,9 +3,11 @@
 <head>
  <meta charset="UTF-8">
 <title>My Website - About</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
 </head>
 <body>
  <h1>Jonathan Astwood</h1>
  <p>Buy me something: <a href="https://www.amazon.com/hz/wishlist/ls/YYTOI0Q350CJ?ref_=wl_share">My Amazon Wishlist</a> <br>I'll be glad to receive it at UWI.</p>
+ <img src="{{url_for('static', filename='images/cat.png') }}" alt="cat picture">
 </body>
 </html>
